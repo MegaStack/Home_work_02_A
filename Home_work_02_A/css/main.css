@@ -9,7 +9,7 @@ div {
 
 .container {
   margin: 0 auto;
-  min-width: 700px;
+  min-width: 850px;
   max-width: 1000px;
   border: 1px solid gray;
 }
@@ -74,17 +74,19 @@ h2 {
 }
 
 .carts {
-  max-width: 100px;
-  display: inline;
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
 }
 
 .cart {
-  width: 30%;
+  width: 35%;
   border: 1px solid #c6c6c6;
   border-radius: 1.5rem;
   min-width: 200px;
   text-align: center;
-  vertical-align: top;
+  float: left;
 }
 
 .carts img {
